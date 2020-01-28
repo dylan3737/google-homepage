@@ -47,10 +47,16 @@ table {
 	border-spacing: 0;
 }
 /* -------------End Reset Stylesheet----------- */
-
-.nav-left{}
-.nav-right{}
+* {
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+nav {}
+footer {}
+.nav-right {
+  text-align: right  
+}
+.foot-right{
+  text-align: right
+}
 #google-logo{}
-.foot-left{}
-.foot-right{}
-
