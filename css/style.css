@@ -1,13 +1,34 @@
 * {
-    font-family: arial, Arial, Helvetica, sans-serif;
-    font-size: 13px;
+  font-family: arial, Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
-.nav-left {
+
+/* ---------------------------------------------------- */
+
+ul {
+    list-style-type: none;
 }
 footer {
 }
+
+/* ---------------------------------------------------- */
+.nav-left {
+  display: inline;
+  text-align: left;
+}
+
 .nav-right {
+  display: inline;
 }
-.foot-right{
+/* ---------------------------------------------------- */
+
+
+.foot-left {
+  text-align: left;
+  display: inline;
 }
-#google-logo{}
+.foot-right {
+  display: inline;
+}
+#google-logo{
+}
