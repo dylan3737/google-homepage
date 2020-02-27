@@ -1,6 +1,6 @@
 * {
   font-family: arial, Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 /* ---------------------------------------------------- */
@@ -8,27 +8,44 @@
 ul {
     list-style-type: none;
 }
-footer {
-}
 
 /* ---------------------------------------------------- */
 .nav-left {
+  float: left; 
   display: inline;
   text-align: left;
 }
 
 .nav-right {
   display: inline;
+  float: right;
+  padding: 6.5px;
 }
 /* ---------------------------------------------------- */
+#google-logo { 
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  display: table;
+  margin: 0 auto;
+  top: 100px; 
+}
 
 
+
+/* ---------------------------------------------------- */
 .foot-left {
+  float: left; 
   text-align: left;
   display: inline;
+  padding: 6.5px;
 }
 .foot-right {
   display: inline;
+  float: right;
+  padding: 6.5px; 
 }
-#google-logo{
+footer {
+  background-color: rgb(227, 227, 227);
 }
+
