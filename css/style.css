@@ -13,7 +13,7 @@ ul {
 .nav-left {
   float: left; 
   display: inline;
-  text-align: left;
+  padding: 6.5px; 
 }
 
 .nav-right {
@@ -23,29 +23,27 @@ ul {
 }
 /* ---------------------------------------------------- */
 #google-logo { 
-  max-width: 100%;
-  height: auto;
-  max-height: 300px;
-  display: table;
-  margin: 0 auto;
-  top: 100px; 
+  position: absolute;
+  top: 0;
+  bottom: 200px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 
 
 /* ---------------------------------------------------- */
-.foot-left {
-  float: left; 
-  text-align: left;
-  display: inline;
-  padding: 6.5px;
-}
-.foot-right {
-  display: inline;
-  float: right;
-  padding: 6.5px; 
-}
 footer {
   background-color: rgb(227, 227, 227);
+  position: absolute;
+  bottom: 0;
+}
+
+.foot-left {
+  display: inline-flex;
+}
+.foot-right {
+  display: inline-flex;
 }
 
