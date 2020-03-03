@@ -37,19 +37,31 @@ ul {
   left: 50%; 
 }
 
+.search-text {
 
-
-/* ---------------------------------------------------- */
-footer {
-  background-color: rgb(227, 227, 227);
-  position: absolute;
-  bottom: 0;
 }
 
+.search-button {
+
+}
+/* ---------------------------------------------------- */
+footer {
+  background: #f2f2f2;
+  color: #5f6368;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+}
+footer li {
+  padding-right: 25px;
+}
 .foot-left {
   display: inline-flex;
 }
 .foot-right {
   display: inline-flex;
+  float: right;
 }
 
