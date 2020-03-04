@@ -32,9 +32,12 @@ ul {
 }
 
 .search-box {
+  display: table; 
   position: absolute;
   top: 50%;
   left: 50%; 
+  border: 1px solid #cfcece;
+  border-radius: 50px;
 }
 
 .search-text {
