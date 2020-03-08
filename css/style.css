@@ -34,9 +34,10 @@ ul {
 
 .search-box {
   display: flex;
+  overflow: hidden;
   width: 500px; 
-  height: 40px; 
-  position: absolute;
+  height: 40px;
+  position: absolute; 
   top: 42%;
   left: 50%;
   transform: translate(-50%);
@@ -45,12 +46,8 @@ ul {
 }
 
 .search-text {
-  display: inline-flex; 
-  left: 30px; 
 
-}
 
-.search-button {
 }
 
 .button {
