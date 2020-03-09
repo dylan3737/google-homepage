@@ -38,19 +38,17 @@ ul {
   width: 500px; 
   height: 40px;
   position: absolute; 
-  top: 42%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%);
   border: 1px solid #cfcece;
   border-radius: 15px;
 }
 
-.search-text {
-
-
-}
-
 .button {
+  position: absolute; 
+  top: 48%; 
+  left: 42%; 
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
   border-radius: 4px;
@@ -58,6 +56,9 @@ ul {
   font-family: arial,sans-serif;
   font-size: 14px;
   line-height: 30px;
+}
+#lucky {
+  margin-left: 125px; 
 }
 /* ---------------------------------------------------- */
 footer {
@@ -75,7 +76,7 @@ footer li {
 .foot-left {
   display: inline-flex;
 }
-.foot-right {
+.foot-right { 
   float: right;
 }
 
